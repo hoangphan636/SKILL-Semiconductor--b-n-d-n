@@ -1,9 +1,9 @@
 <div align="center">
 
 <!-- ======================================================== -->
-<!-- 🌌 3D LOCAL VECTOR HEADER BANNER                         -->
+<!-- 🌌 3D HIGH-RESOLUTION SILICON PROCESSOR BANNER            -->
 <!-- ======================================================== -->
-<img src="./assets/banner.svg" width="100%" alt="Semiconductor Copilot Header" />
+<img src="./assets/banner.png" width="100%" alt="Semiconductor Copilot 3D Silicon Architecture" />
 
 <!-- ======================================================== -->
 <!-- ⚡ MULTILINGUAL ANIMATED TYPING SVG                      -->
