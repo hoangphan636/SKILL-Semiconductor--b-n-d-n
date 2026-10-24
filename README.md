@@ -1,15 +1,15 @@
 <div align="center">
 
 <!-- ======================================================== -->
-<!-- 🌌 3D WAVING GRADIENT ANIMATED HEADER (CAPSULE RENDER)    -->
+<!-- 🌌 3D LOCAL VECTOR HEADER BANNER                         -->
 <!-- ======================================================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,31&height=280&section=header&text=SEMICONDUCTOR%20COPILOT&fontSize=42&fontAlignY=38&desc=Autonomous%20AI%20for%20Silicon%20Design%2C%202.5D%2F3D%20Chiplet%20%26%20Sign-off&descAlignY=62&descSize=18&animation=twinkling" width="100%" alt="Semiconductor Copilot Header" />
+<img src="./assets/banner.svg" width="100%" alt="Semiconductor Copilot Header" />
 
 <!-- ======================================================== -->
 <!-- ⚡ MULTILINGUAL ANIMATED TYPING SVG                      -->
 <!-- ======================================================== -->
 <a href="#-tiếng-việt">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=820&height=50&lines=%E2%9A%A1%20Autonomous%20AI%20Silicon%20Engineering%20Platform%20V5.0;%F0%9F%9A%80%20Tr%E1%BB%A3%20L%C3%BD%20AI%20Thi%E1%BA%BFt%20K%E1%BA%BF%20Vi%20M%E1%BA%A1ch%20B%C3%A1n%20D%E1%BA%ABn%20Chuy%C3%AAn%20Nghi%E1%BB%87p;%F0%9F%94%AC%20Full-Lifecycle%20RTL%2C%202.5D%2F3D%20Chiplet%2C%20UCIe%202.0%2C%20STA%2C%20DRC%2FLVS;%F0%9F%9B%A1%EF%B8%8F%20REA%20Protocol%3A%20No%20Evidence%2C%20No%20Claim%20%7C%20364%2F364%20Tests%20Passed;%F0%9F%92%8E%20447%20Production%20Capabilities%20%7C%20Zero-Hallucination%20Tape-out" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=900&height=50&lines=%E2%9A%A1%20Autonomous%20AI%20Silicon%20Engineering%20Platform%20V5.0;%F0%9F%9A%80%20Tr%E1%BB%A3%20L%C3%BD%20AI%20Thi%E1%BA%BFt%20K%E1%BA%BF%20Vi%20M%E1%BA%A1ch%20B%C3%A1n%20D%E1%BA%ABn%20V5.0;%F0%9F%94%AC%20Full-Lifecycle%20RTL%2C%202.5D%2F3D%20Chiplet%20%26%20UCIe%202.0;%F0%9F%9B%A1%EF%B8%8F%20REA%20Protocol%3A%20No%20Evidence%2C%20No%20Claim%20%7C%20364%20Tests%20Passed;%F0%9F%92%8E%20447%20Production%20Capabilities%20%7C%20Tape-out%20Ready" alt="Typing Animation" />
 </a>
 
 <!-- ======================================================== -->
@@ -17,11 +17,11 @@
 <!-- ======================================================== -->
 <p align="center">
   <a href="#-tiếng-việt">
-    <img src="https://img.shields.io/badge/Đọc_Bằng-🇻🇳_Tiếng_Việt-00F2FE?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Tiếng Việt" />
+    <img src="https://img.shields.io/badge/Language-Tiếng_Việt-00F2FE?style=for-the-badge&logo=googletranslate&logoColor=white" alt="Tiếng Việt" />
   </a>
   &nbsp;&nbsp;
   <a href="#-english">
-    <img src="https://img.shields.io/badge/Read_In-🇺🇸_English-7928CA?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English" />
+    <img src="https://img.shields.io/badge/Language-English-7928CA?style=for-the-badge&logo=googletranslate&logoColor=white" alt="English" />
   </a>
 </p>
 
@@ -460,9 +460,9 @@ Tuân thủ giao thức **REA**, mọi báo cáo của hệ thống đều dựa
 <br/><br/>
 
 <!-- ======================================================== -->
-<!-- 🌊 3D ANIMATED WAVING FOOTER (CAPSULE RENDER)             -->
+<!-- 🌊 3D LOCAL VECTOR FOOTER BANNER                         -->
 <!-- ======================================================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24,31&height=120&section=footer" width="100%" alt="Footer Banner" />
+<img src="./assets/footer.svg" width="100%" alt="Footer Banner" />
 
 <p align="center">
   <sub>Được thiết kế tỉ mỉ cho thế hệ Vi Mạch Bán Dẫn Silicon, Đóng Gói 2.5D/3D Chiplet & Điện Toán Lượng Tử Tương Lai.</sub><br/>
