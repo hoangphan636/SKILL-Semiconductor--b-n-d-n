@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExecutionResult",
+  "description": "Standardized schema for EDA execution results, log analysis, and sign-off metrics.",
+  "type": "object",
+  "required": ["tool_name", "action", "status", "exit_code", "duration_seconds", "timestamp", "metrics"],
+  "properties": {
+    "tool_name": { "type": "string" },
+    "action": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["SUCCESS", "FAILURE", "TIMEOUT", "CRASH", "SKIPPED"]
+    },
+    "exit_code": { "type": "integer" },
+    "duration_seconds": { "type": "number" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "errors_count": { "type": "integer", "default": 0 },
+        "warnings_count": { "type": "integer", "default": 0 },
+        "lint_violations": { "type": "integer" },
+        "uvm_fatal_count": { "type": "integer" },
+        "uvm_error_count": { "type": "integer" },
+        "uvm_warning_count": { "type": "integer" },
+        "wns_ns": { "type": "number" },
+        "tns_ns": { "type": "number" },
+        "whs_ns": { "type": "number" },
+        "ths_ns": { "type": "number" },
+        "drc_violations": { "type": "integer" },
+        "lvs_clean": { "type": "boolean" },
+        "area_cell_count": { "type": "integer" },
+        "coverage_percentage": { "type": "number" }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "path"],
+        "properties": {
+          "type": { "type": "string", "enum": ["log", "waveform_vcd", "waveform_fsdb", "timing_report", "synthesis_netlist", "drc_report", "coverage_db"] },
+          "path": { "type": "string" }
+        }
+      }
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["severity", "code", "text"],
+        "properties": {
+          "severity": { "type": "string", "enum": ["FATAL", "ERROR", "WARNING", "INFO"] },
+          "code": { "type": "string" },
+          "text": { "type": "string" },
+          "file": { "type": "string" },
+          "line": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

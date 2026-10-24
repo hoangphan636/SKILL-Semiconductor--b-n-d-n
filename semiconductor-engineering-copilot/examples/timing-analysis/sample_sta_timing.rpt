@@ -1,0 +1,36 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : sync_fifo
+Version: T-2022.03-SP5
+Date   : Sat Oct 24 09:30:15 2026
+****************************************
+
+  Startpoint: wr_ptr_reg[0] (rising edge-triggered flip-flop clocked by CLK_FIFO)
+  Endpoint: almost_full (output port clocked by CLK_FIFO)
+  Path Group: CLK_FIFO
+  Path Type: max
+
+  Point                                                   Incr       Path
+  -----------------------------------------------------------------------------
+  clock CLK_FIFO (rise edge)                              0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  wr_ptr_reg[0]/CLK (DFFX1)                               0.00       0.00 r
+  wr_ptr_reg[0]/Q (DFFX1)                                 0.18       0.18 f
+  U12/Y (SUB_4B)                                          0.65       0.83 r
+  U14/Y (CMP_GE)                                          0.72       1.55 f
+  almost_full (out)                                       0.00       1.55 f
+  data arrival time                                                  1.55
+
+  clock CLK_FIFO (rise edge)                              5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  clock uncertainty                                      -0.15       4.85
+  output external delay                                  -1.00       3.85
+  data required time                                                 3.85
+  -----------------------------------------------------------------------------
+  data required time                                                 3.85
+  data arrival time                                                 -1.55
+  -----------------------------------------------------------------------------
+  slack (MET)                                                        2.30

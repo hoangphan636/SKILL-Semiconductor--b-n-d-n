@@ -1,0 +1,25 @@
+# Design Compiler / PrimeTime Timing Report Fixture
+# Scenario: Known Violating Path (WNS = -0.45 ns)
+
+  Startpoint: u_core/alu/mult_reg_reg[31] (rising edge-triggered flip-flop clocked by CLK_CORE)
+  Endpoint: u_core/wb/result_reg[31] (rising edge-triggered flip-flop clocked by CLK_CORE)
+  Path Group: CLK_CORE
+  Path Type: max
+
+  Point                                                   Incr       Path
+  -----------------------------------------------------------------------------
+  clock CLK_CORE (rise edge)                              0.00       0.00
+  u_core/alu/mult_reg_reg[31]/CLK (DFFX1)                 0.00       0.00 r
+  u_core/alu/mult_reg_reg[31]/Q (DFFX1)                   0.22       0.22 f
+  u_core/alu/U140/Y (MUL32X32)                            1.85       2.07 r
+  u_core/wb/result_reg[31]/D (DFFX1)                      0.38       2.45 r
+  data arrival time                                                  2.45
+
+  clock CLK_CORE (rise edge)                              2.00       2.00
+  clock uncertainty                                      -0.00       2.00
+  data required time                                                 2.00
+  -----------------------------------------------------------------------------
+  data required time                                                 2.00
+  data arrival time                                                 -2.45
+  -----------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.45

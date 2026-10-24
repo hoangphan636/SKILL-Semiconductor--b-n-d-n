@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UniversalExecutionV2",
+  "description": "Universal contract schema for sandboxed remote/local EDA job executions and reproducible run manifests.",
+  "type": "object",
+  "required": ["execution_id", "tool_name", "target_host", "status", "exit_code", "sha256_input_manifest"],
+  "properties": {
+    "execution_id": { "type": "string" },
+    "tool_name": { "type": "string" },
+    "target_host": { "type": "string", "enum": ["local", "slurm_farm", "remote_ssh", "cloud_batch"] },
+    "sandbox_path": { "type": "string" },
+    "status": { "type": "string", "enum": ["QUEUED", "RUNNING", "COMPLETED", "FAILED", "TIMEOUT", "CANCELLED"] },
+    "exit_code": { "type": "integer" },
+    "sha256_input_manifest": { "type": "string" },
+    "execution_duration_sec": { "type": "number" },
+    "license_token_acquired": { "type": "string" },
+    "checkpoint_id": { "type": "string" }
+  }
+}

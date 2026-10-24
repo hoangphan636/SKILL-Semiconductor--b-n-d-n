@@ -1,0 +1,39 @@
+# ==============================================================================
+# SEMICONDUCTOR ENGINEERING COPILOT - ROOT GITIGNORE
+# ==============================================================================
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets & Local env
+.env
+*.pem
+*.key
+
+# EDA & Simulation artifacts
+*.vcd
+*.fsdb
+*.saif
+*.spef
+*.gds
+*.oasis
+*.log
+.sandboxes/
+tmp/
+temp/

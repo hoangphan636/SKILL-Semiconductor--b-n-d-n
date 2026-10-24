@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ToolManifest",
+  "description": "Schema defining EDA tool capabilities, interface mechanisms, and license parameters.",
+  "type": "object",
+  "required": ["tools", "timestamp", "host_environment"],
+  "properties": {
+    "timestamp": { "type": "string", "format": "date-time" },
+    "host_environment": {
+      "type": "object",
+      "required": ["os", "arch"],
+      "properties": {
+        "os": { "type": "string" },
+        "arch": { "type": "string" },
+        "license_servers": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/EdaToolEntry"
+      }
+    }
+  },
+  "definitions": {
+    "EdaToolEntry": {
+      "type": "object",
+      "required": ["name", "category", "status", "execution_mode"],
+      "properties": {
+        "name": { "type": "string" },
+        "vendor": { "type": "string" },
+        "category": {
+          "type": "string",
+          "enum": ["simulation", "synthesis", "sta", "physical_design", "analog", "fpga", "dft", "lint_cdc", "waveform_viewer"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["detected", "available_licensed", "license_missing", "uninstalled", "mcp_enabled"]
+        },
+        "executable_path": { "type": ["string", "null"] },
+        "version": { "type": ["string", "null"] },
+        "execution_mode": {
+          "type": "string",
+          "enum": ["mcp", "batch_cli", "tcl_shell", "gui_only", "unsupported"]
+        },
+        "supports_headless": { "type": "boolean" },
+        "license_variable": { "type": ["string", "null"] }
+      }
+    }
+  }
+}
