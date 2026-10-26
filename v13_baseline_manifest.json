@@ -1,0 +1,1112 @@
+[
+  {
+    "path": "semiconductor-engineering-copilot/.gitignore",
+    "hash": "13841d71b99fc48e0fa264a5fc136d3d961f74a1eaf43b49d73797d462baaece",
+    "size": 1433
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/generic-cli/log_parser.js",
+    "hash": "1167b582ec50b7b168b15f2cac94dac9b972dbca0a738c3338d6698f8fa45004",
+    "size": 3313
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/generic-cli/log_parser.py",
+    "hash": "a2bd2842ecb0946f51a8de2d7f60115320fcc0032d2626d072a2bcab5d0a1fcf",
+    "size": 3336
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/mcp/eda_mcp_server.js",
+    "hash": "8a476c09df02525b177111ef2af24dd6a6a93c208a87115f5dc0c935d966cb92",
+    "size": 39344
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/mcp/eda_mcp_server.py",
+    "hash": "ded4fd8888b0a861b98ae307f5b75a93e9cc91d69e04f400866c5a711f70b2ba",
+    "size": 9090
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/parsers/advanced_parsers.js",
+    "hash": "b3dc473eff173ee68bd10369e7d0fc6706f5e03d5d7c35b76cdc6b682fc8c8f7",
+    "size": 3782
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/parsers/expansion_100_parsers.js",
+    "hash": "679c74bfbc81e1218b35bcf9e43e3ab01005195640bc3a7d6dc843dcb423be25",
+    "size": 2953
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/parsers/expansion_50_parsers.js",
+    "hash": "811af793a39443478180d99b6cebab550f087a2341e1002a7cb794a1d0f92d33",
+    "size": 3592
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/README.md",
+    "hash": "5413d2348acf9f1a018becebeea77b3fbe3fa0ece6f24d36fe004277486bbe47",
+    "size": 1076
+  },
+  {
+    "path": "semiconductor-engineering-copilot/adapters/tcl/sta_runner.tcl",
+    "hash": "0e4561a55d2f2a352c836eb441db15ca3e347ec47edd6f9c93dc4fd3762eb58e",
+    "size": 1763
+  },
+  {
+    "path": "semiconductor-engineering-copilot/COVERAGE_REPORT.md",
+    "hash": "e53ea50fb4e27bc72ae2f309d5738689a19aebfcd634851fb03839acfbb45374",
+    "size": 1353
+  },
+  {
+    "path": "semiconductor-engineering-copilot/E2E_TEST_REPORT.md",
+    "hash": "7efb6168373ed5599f099a5c2028488ccfed3a2e37766e8833c3e8edf844178a",
+    "size": 2605
+  },
+  {
+    "path": "semiconductor-engineering-copilot/examples/fpga-flow/vivado_batch.tcl",
+    "hash": "62057d13779e744c06f8e13f8cf5ea71e8f08f02f579660626f835e141287339",
+    "size": 1112
+  },
+  {
+    "path": "semiconductor-engineering-copilot/examples/rtl-verification/sync_fifo.v",
+    "hash": "349767bc46e42c9f90cbf5c4980c4db51cf8c5059f7333e0eb59d38406d63558",
+    "size": 1691
+  },
+  {
+    "path": "semiconductor-engineering-copilot/examples/rtl-verification/sync_fifo_tb.v",
+    "hash": "fad9499de824a9d0405bea09cb2aac59676d21a746a617cbb8e8540157907f35",
+    "size": 3197
+  },
+  {
+    "path": "semiconductor-engineering-copilot/examples/timing-analysis/fifo_constraints.sdc",
+    "hash": "c9ffe0125fed58cf7eb5bca9a4baee235e6cb05a7f1e11869faa6f04842fdf9e",
+    "size": 931
+  },
+  {
+    "path": "semiconductor-engineering-copilot/examples/timing-analysis/sample_sta_timing.rpt",
+    "hash": "e00b13e3d6f29b25ddb32ade98e61104c2d8b115b0f79756f94a653385fa9824",
+    "size": 1924
+  },
+  {
+    "path": "semiconductor-engineering-copilot/examples/waveform-debugging/sample_fifo_trace.vcd",
+    "hash": "8c8eac939754cc1975ee2c6cb0d467d74ae83b52e16f719e308ced7708bc7c3e",
+    "size": 436
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/optimization_v10/ams_ai_eda/v10_ams_ai_eda.js",
+    "hash": "440b9dcccdade21adccb9fe08083c7bdf81ce333f11fa4b11276a1924cf6b037",
+    "size": 22582
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/optimization_v10/formal_dft_pkg/v10_formal_dft_pkg.js",
+    "hash": "4dbe658321a5e62aed84594ba3b531f97cba4fd1356d310cb0185d6ae090eeab",
+    "size": 22878
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/optimization_v10/hdl_synth_pnr/v10_hdl_synth_pnr.js",
+    "hash": "5ed5613fbf4425a3d499631c7cbc1a62a4a92d354d29a1b406b6c5956a5e042d",
+    "size": 18139
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/optimization_v10/index.js",
+    "hash": "d6fcc2bcec2874f7706894034f758ebf1c2c46bd883b1b9d9fe85380df0c3737",
+    "size": 25963
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/optimization_v10/qa_sec_gov/v10_qa_sec_gov.js",
+    "hash": "4a471c04704d3c1a1c0f709102b3d9e37494cd8bdbc282e327a724fe6e316785",
+    "size": 20880
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/optimization_v10/sta_power_si/v10_sta_power_si.js",
+    "hash": "5996b7249e75229103840681d800fd97f01d79569d2167b3d61ff6adabac7fc9",
+    "size": 18236
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v11/ai_eda_sec_governance/v11_ai_eda_sec_governance.js",
+    "hash": "2d2c7ebd0c887abd357e0cfe10db11ce4dfd984a5e4edf61237b018f8809e910",
+    "size": 16176
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v11/ams_photonics_quantum/v11_ams_photonics_quantum.js",
+    "hash": "3367f3c4cec7a777b68d8ef8defd37395ad494ede73ae6ac4ff3fcb13a1214bd",
+    "size": 14172
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v11/arch_synth_pnr/v11_arch_synth_pnr.js",
+    "hash": "63286518db1fdbc1e5c7c888e9779dd28f1deb19eb7f900982a2de94c852c6a9",
+    "size": 15222
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v11/formal_dft_packaging/v11_formal_dft_packaging.js",
+    "hash": "02a343534e3b326d2a142f8c0a289df389ed7d580664aa247a3bf1f11dd2b102",
+    "size": 14411
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v11/index.js",
+    "hash": "71a242a7954db57a9b8c7f482defbd819ae97a0e547038675608afec46d6f71d",
+    "size": 3344
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v11/sta_power_reliability/v11_sta_power_reliability.js",
+    "hash": "46bb8fa3bb1f225c28e6880c42b54ee8e0aa1a6e6a5ec85496f279cf639a0be4",
+    "size": 15398
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v6/arch/v6_arch_interconnect_safety.js",
+    "hash": "9158633fbeab711131ee6a95fd310639ad6bfd954e4d5650191cec332009460b",
+    "size": 17753
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v6/index.js",
+    "hash": "987c8ef21d33cf1b4635426938d8952a076468fcb81ad4161fbeabd1d081af38",
+    "size": 9135
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v6/observability/v6_obs_release_gov.js",
+    "hash": "8c0d8f0d59c61a12dfd8c332357800cfc01b8e18971504de34479feca374b5f4",
+    "size": 16571
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v6/power/v6_pwr_dft_pipelines.js",
+    "hash": "31998c8de1349a1434acc1f8cdf6e6211d7e2e6e5a6934541aa857c4d2ecf1c8",
+    "size": 16551
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v6/security/v6_sec_ams_physical.js",
+    "hash": "07d8ecf6cd980392bd45b9a7288a6379d86bb0b001536457af7ece9e419da8f8",
+    "size": 16030
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v6/testing/v6_test_ai_orchestration.js",
+    "hash": "e1ffd5d8465ffc82cd65a8522ffc15917efbb632677d2968626c739b438bee6a",
+    "size": 17832
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v7/agents_qa_gov/v7_agents_qa_gov.js",
+    "hash": "db9e724ac763849657f76b7b2453029d4bd88fe88c0b6e78b0b6559d88580082",
+    "size": 17994
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v7/arch_formal/v7_arch_formal.js",
+    "hash": "0fc0d5a3dc133a8734979a98c2bf517ff7ac8783f2b897c68c5ff18f4b05cc4e",
+    "size": 18821
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v7/index.js",
+    "hash": "926c15e9c666b9a32355881cb7e3080b6b493104a98d909d8ef2695a60632286",
+    "size": 10043
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v7/power_proto_fw/v7_power_proto_fw.js",
+    "hash": "c4d7a8849aaac1c6fdeb2643bb85a76d4af00c81bfe6c7c97a1c644e152d19fd",
+    "size": 19264
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v7/sim_eda_trace/v7_sim_eda_trace.js",
+    "hash": "0f8cc81ebaf37dff1175a2483d85b93111d4301573a21816d0b46aa1d8b769fc",
+    "size": 18517
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v7/timing_synth_pnr/v7_timing_synth_pnr.js",
+    "hash": "e6d95546a78587f8d557300c3869c9348658d800055ea99d49c5191f2ef3909b",
+    "size": 18505
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v8/ai_qa_sec/v8_ai_qa_sec.js",
+    "hash": "cdcb34312db9735aaa441d2ffaf96f86008fe013e07a40c7b2ae6ba58232d03d",
+    "size": 29223
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v8/index.js",
+    "hash": "024681a6989ffda181781009410ed1a38cebaee7042f83d9c4f2bc3d8c5e05bb",
+    "size": 5221
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v8/pnr_pwr_dft/v8_pnr_pwr_dft.js",
+    "hash": "168bc9d73c6ad5bd93e184cdec185e9f45b4493fc23c36057805bd47fda96b69",
+    "size": 17890
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v8/rtl_formal_clk/v8_rtl_formal_clk.js",
+    "hash": "dd25778f569b8871d353beaf407b70f3b4cf35eac2dd8f675e58e65c9b982c6a",
+    "size": 18849
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v8/si_eda_obs/v8_si_eda_obs.js",
+    "hash": "8c80dff7393b3caa69d422db06744a77b81ab030725d8a0e2d71252547d086c3",
+    "size": 17370
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v8/val_chiplet_arch/v8_val_chiplet_arch.js",
+    "hash": "6e6f9ef92077dade3a9ae29677c02e6e072a131407fa55271c9d11bd4c0cc20a",
+    "size": 17687
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v9/adv_phys_pdk/v9_adv_phys_pdk.js",
+    "hash": "933704ffa34dd45ca94547574040fb3764c0028be2693361e36448051142130d",
+    "size": 19490
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v9/cov_sec_eda/v9_cov_sec_eda.js",
+    "hash": "48b6b93a94c2c31c8b9812b65483ab009a119021eef0a23bb50e24035aff70ea",
+    "size": 17612
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v9/dbg_agent_kg/v9_dbg_agent_kg.js",
+    "hash": "40ba75f022fdb53ba20fc8dc576af31076a4a2a5aa1b619e7a12579d77bde502",
+    "size": 16111
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v9/index.js",
+    "hash": "e6d6616a918dae09a4c27b587d27327742eb4ab588c1d0b4aeb39971d310582d",
+    "size": 4901
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v9/perf_qa_sec/v9_perf_qa_sec.js",
+    "hash": "7bb5714f0d47f96166b0319482450488b71b1276d370accf085263f8527b8010",
+    "size": 18394
+  },
+  {
+    "path": "semiconductor-engineering-copilot/extensions/v9/sta_rel_uvm/v9_sta_rel_uvm.js",
+    "hash": "0e987abaa9b5616dca6281b3e02499c4ab86023c0376009201ddd05ff9940008",
+    "size": 18956
+  },
+  {
+    "path": "semiconductor-engineering-copilot/FEATURE_MATRIX.md",
+    "hash": "4d4b2ebc59b55d89b371e5680fbaddd88a97c2b08a2bfa7e5b427d166f95b7ce",
+    "size": 13236
+  },
+  {
+    "path": "semiconductor-engineering-copilot/FEATURE_MATRIX_V3.md",
+    "hash": "c56c4d19783521cc6ec6ac7c6ea75bee2436d88cba51b7cc38387f26daf2a885",
+    "size": 12880
+  },
+  {
+    "path": "semiconductor-engineering-copilot/FEATURE_MATRIX_V4.md",
+    "hash": "8a018d9246d1cb5e7de12c603b0d480b123b1fb01614e172aa1887630b2ff0f0",
+    "size": 24046
+  },
+  {
+    "path": "semiconductor-engineering-copilot/FEATURE_MATRIX_V5.md",
+    "hash": "8ae25e7a8477e72a52fd763c57b6022ed03c5d0b8a2dc85125db3dd11a0a8a1b",
+    "size": 26566
+  },
+  {
+    "path": "semiconductor-engineering-copilot/fixtures/reports/violating_timing.rpt",
+    "hash": "9eed1d11764e6febb7c7b04dadb8dd2d8e1628330592b4cb6050dbff87b7dd3e",
+    "size": 1542
+  },
+  {
+    "path": "semiconductor-engineering-copilot/fixtures/rtl/counter_4bit.v",
+    "hash": "ed87fd94a5c4decc8a0f2a8826780d0e745cfe150d9f099d51a4ddf12007d40e",
+    "size": 683
+  },
+  {
+    "path": "semiconductor-engineering-copilot/LICENSE",
+    "hash": "cfbc8641f17e6669419000203138550b4e9578653921508bca3416ab4a7e0dec",
+    "size": 775
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/agent-intelligence/agent_engine.js",
+    "hash": "15545fb113ff528140aa64144c971252cb11a83974ebc4e2ed1e520aadcd1670",
+    "size": 7078
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/design-signoff/signoff_engine.js",
+    "hash": "614674ad6bab8212ef51058f7bc93fd6596ce686928f1a71d530961a64fad3d7",
+    "size": 5627
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/eda-automation/automation_engine.js",
+    "hash": "693548d9cc12a8e7dd1dd88327cdeca82f1711f3e4d6b2d9bb5984031f7d0a49",
+    "size": 5409
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/platform-governance/governance_engine.js",
+    "hash": "52ec2fb8f593124a98ece670b839bb8969a95c3192a17f1a97b82583a50abd05",
+    "size": 5104
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v3/change-reliability/change_reliability.js",
+    "hash": "2f43bd356b18809ee3cd7738950011a4b058a61acbb4462d216134e8e31f2773",
+    "size": 6756
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v3/design-architecture/design_architecture.js",
+    "hash": "d71155776951c9b7b09127c0ab5100537369fd2bddeda611c0b2fda24c684063",
+    "size": 8480
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v3/formal-debug/formal_debug.js",
+    "hash": "f4d8981f2d04e8ddaa5fc69ca7569d3189cecfd7849ba6d4736a09005c0f1ccb",
+    "size": 6476
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v3/power-physical/power_physical.js",
+    "hash": "3331a8df5cae0164e052db0ac392ace591333a336972c0fb7691ddf55b18d414",
+    "size": 6018
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v3/testing-quality/testing_quality.js",
+    "hash": "a7265e899d7209bfa4e7ae297af9ee82e3c92f81524af10ffcf693df4eb87134",
+    "size": 5520
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v4/data-analytics/v4_data_testing.js",
+    "hash": "58765f21b520939f2eaf4ebbf4b487692e6b6e944d2c97823417e45371d1e4b7",
+    "size": 12911
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v4/index.js",
+    "hash": "7af62ae0cfc95647fcb8fc94bbfc7d9db3049b27532e34560fcfded66daacd1b",
+    "size": 8034
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v4/req-spec/v4_core_intelligence.js",
+    "hash": "3636561eea8f82af49211e61b0ae4b7ea26eab3018b1356c643fe655aebab696",
+    "size": 12058
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v4/sec-gov/v4_sec_mcp.js",
+    "hash": "f953d8f6ac5907ae5f7a231daa9e73afd1a37be4deed8318db4b6e43e34d7189",
+    "size": 13243
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v4/timing-opt/v4_timing_eda_ops.js",
+    "hash": "642594f84185fae354c160156b553b61d8adcab98f815bf94f747ac01483c185",
+    "size": 8320
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v4/verif-planning/v4_verif_debug.js",
+    "hash": "6828a4963a831640925017c5c5657b603f87f885d98d4ffb40c9dd3308a04f10",
+    "size": 10499
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v5/chiplet-pkg/v5_chiplet_arch.js",
+    "hash": "62707358cbba6c327cf177e13a7a22c98182518e2b04a441281f02c4e2a99197",
+    "size": 16054
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v5/data-ip/v5_data_silicon.js",
+    "hash": "9079db048849c6c620130e4808c95254f1e8f011c334fa669a0ccbf55c240a62",
+    "size": 13578
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v5/emu-fpga/v5_emu_ai_eda.js",
+    "hash": "03657c2322482c5e3a2316f6f49db7ba84a2f1e0987b95e7f98d1819352e880e",
+    "size": 11829
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v5/hs-interfaces/v5_hs_thermal.js",
+    "hash": "77ced74f38a001fd846abe577dde42866fd438b89e083fa69fb126fcb1c07a91",
+    "size": 14502
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v5/index.js",
+    "hash": "df44138ab761bafed4df89ee96b5688bc4f0d8f185cc08d5b7d34be639b0d611",
+    "size": 7117
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/v5/sys-codesign/v5_sys_release.js",
+    "hash": "2888bc236f82517d48bbf964db8f8ea53cdf156e63b243c3b029abbad155077b",
+    "size": 13924
+  },
+  {
+    "path": "semiconductor-engineering-copilot/modules/verification-intelligence/verification_engine.js",
+    "hash": "cb910af750b32d943cb3699166516f341ec1f2830212211111cd045cc8f581fc",
+    "size": 6002
+  },
+  {
+    "path": "semiconductor-engineering-copilot/package.json",
+    "hash": "c9aeb3b282f17764be5ca8a5d2c3382d7af13141e35ff64f4057178ecaa6d6e3",
+    "size": 1207
+  },
+  {
+    "path": "semiconductor-engineering-copilot/README.md",
+    "hash": "28b1a42525d923136af4ed681dcaab3b253a3b378c5a252cc8795069f3e6efa8",
+    "size": 28876
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/analog-mixed-signal.md",
+    "hash": "04ae3b3289ea2b284bf8f92d42db254ac601f28c43337945f2fb789362313aad",
+    "size": 1608
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/architecture.md",
+    "hash": "376b42534c0c4dac1dd4fd9be516c7b897c4daad55ea9ac8d2ccd75861e6b3e1",
+    "size": 3434
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/design-verification.md",
+    "hash": "b02a5fac37680377ab5bacd43b0f51555c5b168b0e90fb6aca27d5860b3cbfa8",
+    "size": 2179
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/dft-signoff.md",
+    "hash": "5ea885b40bd64822360d4661df8a2afe4ff67f7f64febc3d5998dc678a09bd79",
+    "size": 1989
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/features/30-features-spec.md",
+    "hash": "70099263ee9ef1cb90b9e57e77e05987408a2277357e0b06652401da7f96145a",
+    "size": 11117
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/features/expansion_100/50-frontier-features-spec.md",
+    "hash": "8d480d74a4e9a54fb34d5c810e488936ab264ae92ca82e3ecbc5af86f2289ddb",
+    "size": 10233
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/features/expansion_50/50-features-spec.md",
+    "hash": "6109e9bf06d5d51eacb1fe332ce2c9c20f9d730f97c9b179dd2dda1245dc6aa8",
+    "size": 9459
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/fpga-design.md",
+    "hash": "95237e70e903a7bd1c0f8f5eceb762dfb8ffa440c9814efa932afb91fa3ca1a4",
+    "size": 2133
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/mcp-integration.md",
+    "hash": "0080d8ee72e06d3d5922564e954d70092975bb8d4b2303517b1598d9bd2f4cbe",
+    "size": 3505
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/physical-design.md",
+    "hash": "2d515ee5d1c70805b283a5c685c60d3bb3e2f0efdbf0bf2f5231606c937f6baa",
+    "size": 1930
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/reporting.md",
+    "hash": "fc0f89cb4969789e7b64c4ed5ed2cae9f97d80488b9e9306db5500203860016d",
+    "size": 1694
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/rtl-design.md",
+    "hash": "06b6bca58e99697d18da64660052da36974093b8281f0883c5e969f02472b6f0",
+    "size": 2465
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/security.md",
+    "hash": "27a4b2922624e462347b1496bbd31f68dffd8964c75c5e9a01f46e26b950d1bb",
+    "size": 2119
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/simulation-debugging.md",
+    "hash": "11b14629f10d4e95aedb2d0b9267b052faf277515aecf0416e92fc29fc982e13",
+    "size": 1870
+  },
+  {
+    "path": "semiconductor-engineering-copilot/references/synthesis-sta.md",
+    "hash": "d34fc795528f30078a373c0f25b6ec6a9caee2c24a0a68402c11c48f48bf02e4",
+    "size": 2519
+  },
+  {
+    "path": "semiconductor-engineering-copilot/RELEASE_READINESS_REPORT.md",
+    "hash": "93f4a4b519b469211a6d3c795f7cf7bd300b5761494768b9aed7a83074099377",
+    "size": 2412
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_BASELINE.md",
+    "hash": "8bd69a77a8bdce947a9c39c91f007c91b6567b3bd40014430c58fd2854b7c66a",
+    "size": 2272
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_CHANGE_MANIFEST.md",
+    "hash": "66873b4f5ae2d5d5739b16ec3f9e6b364cec4f29fc675006923eee9689dc64b0",
+    "size": 2272
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_CONTRACT_TEST_REPORT.md",
+    "hash": "99607f595d1b984acf3915fef3a3453d16a8d6c5de664cf375353bc7afccfe87",
+    "size": 1011
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_FEATURE_IMPLEMENTATION_MATRIX.md",
+    "hash": "d93d215910a3f4932dd8396c17cc734dcb1e7e4b12d805b7f2d7d5a339f4999c",
+    "size": 1645
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_FEATURE_REGISTRY.md",
+    "hash": "d8157751925c7e40a06018c79f7fcc93a677996a78c0c71ef0c227df708ce6f8",
+    "size": 17984
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_FILE_PRESERVATION_REPORT.md",
+    "hash": "b47f67c9cc24a55df1d5b10f02c668a45919438ddc896c2835ffb92df2e39a3b",
+    "size": 1326
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_PERFORMANCE_REPORT.md",
+    "hash": "2898147482c5fe070ef258d65dbe081d058d5144dba7140981156150270bce04",
+    "size": 808
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_REGRESSION_REPORT.md",
+    "hash": "0cd188d971d9a5e1a91e2e98e342c1fbc90f7aad7149a3e884caad63cf57664b",
+    "size": 1211
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_RELEASE_READINESS.md",
+    "hash": "dd163b2b07543ca995dc659678e830157bb68d6fa3648769a24b481d835d99f1",
+    "size": 1409
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_SECURITY_REPORT.md",
+    "hash": "cffdf440d4abc754992a8f1445a877477ce70f6064496847a25e7764f0b58cec",
+    "size": 1544
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_SMOKE_TEST_REPORT.md",
+    "hash": "121db4c008d2f6e6fc0ec188bbc03eb00f0cafc76c3a8725c6891ddc95524d93",
+    "size": 1866
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/optimization_v10/V10_UNIT_TEST_REPORT.md",
+    "hash": "bfb164802107d7d89db218dc0394ae3176e16147207c5f83902daa3b1cc651a5",
+    "size": 1456
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_BASELINE.md",
+    "hash": "34322ccde424fbafb0f9b02c8250ad8ff1a2a93ad072ec331958f0cd265807f7",
+    "size": 2556
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_CHANGE_MANIFEST.md",
+    "hash": "105b7150ce81adddac51ca762430ca1a6dfd407b687d116759df79ffb7993f6f",
+    "size": 2179
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_CONTRACT_TEST_REPORT.md",
+    "hash": "0ba18b5c3c1abfbfba223b5e2f69054cc9005bb5a39154022c8d847cbb90f069",
+    "size": 1012
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_FEATURE_IMPLEMENTATION_MATRIX.md",
+    "hash": "ba76fd11a215be7756d53a0b9feffe014ff53d900382360addb2089a592073bc",
+    "size": 1664
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_FEATURE_REGISTRY.md",
+    "hash": "081ee5ce2a883c330290e5371871eca67e8efe3cd2f09d3cf41c1838eff1a0fb",
+    "size": 20722
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_FILE_PRESERVATION_REPORT.md",
+    "hash": "5d6895f4025e5dc0ef20397c8026ae21c41b2d87493183e6d41a79b414d13419",
+    "size": 1508
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_PERFORMANCE_REPORT.md",
+    "hash": "3c3646ada76ff3b28c7fc9d126710fd89c3765e2c53b76a67472ea99e516cfbd",
+    "size": 808
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_REGRESSION_REPORT.md",
+    "hash": "ef173081c9563fc13be1c519e95fee09630bdad6845b0e59f9105ee42967169d",
+    "size": 1260
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_RELEASE_READINESS.md",
+    "hash": "c83d51b00b33af993091cec520618aeb9654544e167101be61ea38fab164919f",
+    "size": 1449
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_SECURITY_REPORT.md",
+    "hash": "31c6abee695d873f1bf705e574d36de0cc989d8f4ccd98060a612a9b032014bc",
+    "size": 1543
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_SMOKE_TEST_REPORT.md",
+    "hash": "f28f0d7116cb79b38666f9ff02fb7148bcce4620d13a22b2e7ec42f77ef85c69",
+    "size": 2067
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v11/V11_UNIT_TEST_REPORT.md",
+    "hash": "5c7b30378944d0e82f57c8cdd7f9bba35d931efba8c312d661eb425d0210c491",
+    "size": 1490
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/CHANGE_MANIFEST_V6.md",
+    "hash": "7974ccb13670b2b402a79b417fc7e200fd38ae43662d762cbbc297ed72cf8ff6",
+    "size": 1848
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/FEATURE_MATRIX_V6.md",
+    "hash": "9d21be1300b8f70a240e65d22d42f3f81c5470ad082a46def470d970fdb8f0da",
+    "size": 23649
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/FILE_PRESERVATION_REPORT_V6.md",
+    "hash": "4019ec446ae0d966913f0067059dd13c55c6e3569911b0aa250b42deb9443018",
+    "size": 1459
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/REGRESSION_TEST_REPORT_V6.md",
+    "hash": "f8aebba157248e8a85e9e1c9470263457758a55a8c220a3824ae4f6cec0f7b05",
+    "size": 1140
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/RELEASE_READINESS_V6.md",
+    "hash": "50b597cd1eec08a8d9548e187fb77bed83aa734b92cbd24de60cb05d2a8e178a",
+    "size": 983
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/SECURITY_TEST_REPORT_V6.md",
+    "hash": "98f3f150bbb054cfa1d343b20db0d18abbda57abfa3524a9b3e9bd7c982938c3",
+    "size": 1685
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/SMOKE_TEST_REPORT_V6.md",
+    "hash": "228a87a5bd03bb3dd12b2b1438e3eee0474ba0ad2866121588f577e233aa3139",
+    "size": 1243
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/TEST_PLAN_V6.md",
+    "hash": "3ff604aab57d411ee68d8aa5da4a60a29f33707e6d154e2b18e93b750ddc81ab",
+    "size": 1337
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/UNIT_TEST_REPORT_V6.md",
+    "hash": "1f66c02ad769406ecf0d3efd167a6796c33d3b15744e6d7ee9fc53f964c481ea",
+    "size": 1627
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v6/UPGRADE_AUDIT_V6.md",
+    "hash": "99c400c5a98612c8fb87f2766c4c5f221243f266e237fddd9d373e49efbe2979",
+    "size": 1694
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_CHANGE_MANIFEST.md",
+    "hash": "cd13d76b384e02331bc7b31abc24b56ca03aab9c71282fae139b07dcc69f8fa2",
+    "size": 1853
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_CONTRACT_TEST_REPORT.md",
+    "hash": "3d4bd87a768c12038cabe9706ef34025c7419aab2cabb908fe827703f482f707",
+    "size": 1096
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_FEATURE_MATRIX.md",
+    "hash": "0bccd4b74b8feca26924b3bab04bd7b23127fbd145cf05fd5ece23a577e817e2",
+    "size": 25141
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_FILE_PRESERVATION_REPORT.md",
+    "hash": "fd0ae2e8c38aee60e42ddfb9592d875189e0baab95eb53d2fd939b974108b8f5",
+    "size": 1569
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_REGRESSION_REPORT.md",
+    "hash": "364807ff7df5b60f101953280c951c6f60e68b93a9b0de58e6fcef78c1b64908",
+    "size": 1346
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_RELEASE_READINESS.md",
+    "hash": "693466e43cdccc2fde498a0e90a4e3c039a3fe592e54dff00f4c3419e7488288",
+    "size": 1032
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_SECURITY_REPORT.md",
+    "hash": "00d3fa98d591253e2da425e17edcc4b16ae98d079cf2e1dd79a174a61ae730a9",
+    "size": 1161
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_SMOKE_TEST_REPORT.md",
+    "hash": "8e1d9de3fc86ae180cfeba0a0080647a79eb2e88b64423c55a76811bf89fb8f0",
+    "size": 2364
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_UNIT_TEST_REPORT.md",
+    "hash": "d509a0270c0ee4aae5004afc186a737464fab19ebf2d5e8d4bf3633c46645fed",
+    "size": 1346
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v7/V7_UPGRADE_AUDIT.md",
+    "hash": "aac17b8aa532d43a08000e6e50d79a775a454a70dae2fd40727c403131f10616",
+    "size": 1590
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_CHANGE_MANIFEST.md",
+    "hash": "8ee996ab495fbaa7a589182a7b037c6e42a1117b930e521553fbfe0fc27302da",
+    "size": 2204
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_CONTRACT_TEST_REPORT.md",
+    "hash": "c6a492dc882110cf4d9b5ce632cb703ae7ba014b6f84e672e0d9c876efc3f405",
+    "size": 1428
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_FEATURE_MATRIX.md",
+    "hash": "c2480517bc838a59035650f67735e21d4def1b82bac90b204b928fc6a4f8afce",
+    "size": 17319
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_FILE_PRESERVATION_REPORT.md",
+    "hash": "f827fe31b96cb1599b91f7f8cd8e24a4de5817995a2f089a732c220c99707ff0",
+    "size": 1716
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_REGRESSION_REPORT.md",
+    "hash": "83aee2665350026796ef925fd2a44bf6014c48c7599d17fd0395b66522435656",
+    "size": 1582
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_RELEASE_READINESS.md",
+    "hash": "d145d259aec3cc0d5808e34f8a9a7e7619acb8417d7ece0e104d482c5d107b18",
+    "size": 1568
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_SECURITY_REPORT.md",
+    "hash": "983b3a57e70cafe252ca1929dcd9571acf62098eeabfe0c5635f3104cc8ca244",
+    "size": 1971
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_SMOKE_TEST_REPORT.md",
+    "hash": "66710456638e82358428baad97ed7ce1db96d02b361b2e9b63e443127d8b212c",
+    "size": 3458
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_UNIT_TEST_REPORT.md",
+    "hash": "87ed2349995541c6a52f099f17ce09d19fce9387f1be673bafe018deb2dfb3da",
+    "size": 2039
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v8/V8_UPGRADE_AUDIT.md",
+    "hash": "2dfaf32530b85f62b33dd667d7f7dc6caf34b4b9360017cbe62fa8274736426d",
+    "size": 3134
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_CHANGE_MANIFEST.md",
+    "hash": "469d409050a0639694b3d0375042008dc6cc0f5e026e38977e65b13300776c91",
+    "size": 2208
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_CONTRACT_TEST_REPORT.md",
+    "hash": "73a1e5afe3e4e866b0cc7112fc08c7985840a54cda5658db0cdae07c53515ee9",
+    "size": 1441
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_FEATURE_MATRIX.md",
+    "hash": "7e525394f5825db6f57a94aace2dad3c38194410cd86fe430b91cca90f019fb9",
+    "size": 18714
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_FILE_PRESERVATION_REPORT.md",
+    "hash": "03ffcbadf061b6279720e779ded575bd67a84a5a85f47b5d2328cd79015d9973",
+    "size": 1832
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_REGRESSION_REPORT.md",
+    "hash": "eddadf1ca434154100563070ff3f0b0ecde7c45962233feda687aec70531673e",
+    "size": 1679
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_RELEASE_READINESS.md",
+    "hash": "067e9965cd37389e0d366563ccb9a38257d520f256736f3826a31f63b160ee69",
+    "size": 1587
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_SECURITY_REPORT.md",
+    "hash": "3e48073eb462d267450d0b1f104872b6570e5e822f728cb794a40fcc7e28b533",
+    "size": 1967
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_SMOKE_TEST_REPORT.md",
+    "hash": "6d814bd7c1a7e16d30310a713f77674a05fde0b367c54f5e65c2a6aa8069aefd",
+    "size": 4060
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_UNIT_TEST_REPORT.md",
+    "hash": "5c3915406c2d39b7777017eeef7336fbcf2f79ceb5308e8d035f736bbfcf6342",
+    "size": 2066
+  },
+  {
+    "path": "semiconductor-engineering-copilot/reports/v9/V9_UPGRADE_AUDIT.md",
+    "hash": "888604066fa13bdf9488c4e3b31ede7bff473e842f0202580c710c104eb97be9",
+    "size": 3250
+  },
+  {
+    "path": "semiconductor-engineering-copilot/schemas/execution-result.schema.json",
+    "hash": "04dbaa6ba26149785236346ca6f0bc5d701295f996de223f8aa9343475ccb46b",
+    "size": 2239
+  },
+  {
+    "path": "semiconductor-engineering-copilot/schemas/tool-manifest.schema.json",
+    "hash": "867fb3dfbd2ad57e8b200a85acb8eea4ac3187693d5cc0351543c8a56c57afc0",
+    "size": 1738
+  },
+  {
+    "path": "semiconductor-engineering-copilot/schemas/v2/engineering-plan.schema.json",
+    "hash": "aad48ef0d918164ed1a37e825ed4c618346bc144dc3d624a7599f5438d58ca98",
+    "size": 1112
+  },
+  {
+    "path": "semiconductor-engineering-copilot/schemas/v2/universal-execution.schema.json",
+    "hash": "ee188310404b81dd91d7d3c0dcfbad4659f678dd22a1ef8d9ece95815506d6ad",
+    "size": 946
+  },
+  {
+    "path": "semiconductor-engineering-copilot/scripts/discover_tools.js",
+    "hash": "2f516b855e356bc0506ff0b81268094e3d01850973256a3b30e3e9ec88e41322",
+    "size": 5309
+  },
+  {
+    "path": "semiconductor-engineering-copilot/scripts/discover_tools.py",
+    "hash": "f99f96c2893ec8ff7c72bf084912b9b902e0647c8ec50da94c4e2a5aa481ef3b",
+    "size": 5386
+  },
+  {
+    "path": "semiconductor-engineering-copilot/scripts/validate_environment.js",
+    "hash": "9e2b89895ad2333214c139ad2e40658e6930df44a5216dd359bbdacfaf205f24",
+    "size": 2268
+  },
+  {
+    "path": "semiconductor-engineering-copilot/scripts/validate_environment.py",
+    "hash": "ca162c7b25317c7bc8569f583c7d1781513fbc25ed82c4a237563d3956860b34",
+    "size": 2331
+  },
+  {
+    "path": "semiconductor-engineering-copilot/scripts/validate_skill.js",
+    "hash": "a037d3264f2321f7d02070f72df218a0c0a231913aa54bd44fd6bafee6efda9d",
+    "size": 1765
+  },
+  {
+    "path": "semiconductor-engineering-copilot/scripts/validate_skill.py",
+    "hash": "1deaa42415e04473f0becdeb88c1ff8ad81df643e043e7537d6ab357dd6043c9",
+    "size": 1728
+  },
+  {
+    "path": "semiconductor-engineering-copilot/SECURITY_TEST_REPORT.md",
+    "hash": "1afc0a736d94396e5f1066ce7196e5afd7aa37298eca61099a41d38ddd9d4fda",
+    "size": 1820
+  },
+  {
+    "path": "semiconductor-engineering-copilot/SKILL.md",
+    "hash": "85c5b73085f97c09d297ee91d6a68801941b6def08b5156d94135dda18a05cab",
+    "size": 15786
+  },
+  {
+    "path": "semiconductor-engineering-copilot/SMOKE_TEST_REPORT.md",
+    "hash": "22b08a1e5f5c1a83e854eac401b3f3277fd9daa349f7f3363e3ca98c352ed0aa",
+    "size": 2508
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/e2e/run_v5_e2e_tests.js",
+    "hash": "73121421a013be95edcff9449878295dabe1ecc19c14c28e002a4c352974be27",
+    "size": 8099
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/optimization_v10/regression/run_v10_regression_tests.js",
+    "hash": "cd9917674f06ee438b3fb96e61c0243bdc4fbd4973197110d1483c40d7ac2435",
+    "size": 4048
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/optimization_v10/security/run_v10_security_tests.js",
+    "hash": "9790d9f779aa301f906386d3f024b6c122adc0f10314fe8aa7535cf88b75c00c",
+    "size": 5775
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/optimization_v10/smoke/run_v10_smoke_tests.js",
+    "hash": "923018aa4c3229c566899c8b5178d061e38c23f4d09be3752476dfc1b63d9f70",
+    "size": 9328
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/optimization_v10/unit/run_all_v10_tests.js",
+    "hash": "823c6792d8d4745be47826b083ec1657b7f97ca6af944477f6c36a6a0acc5f7e",
+    "size": 57507
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/run_tests.js",
+    "hash": "cfc8b9e43625e2d638efdd7a708bea40b7660257ddb6f59124621585c10ab0f1",
+    "size": 4891
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/smoke/run_smoke_tests.js",
+    "hash": "960ff1cfff4ddb87157a71caee648b677713289e10aebeb2ecff5b07b03895c4",
+    "size": 7131
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/smoke/run_v5_smoke_tests.js",
+    "hash": "3e13d1978ed2e707b1f04ec8e440975c35f6e933d123ae60efffd69ee787bb25",
+    "size": 6372
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/unit/run_all_v3_tests.js",
+    "hash": "4b2031ce9d3b14f56db9e4c657ebfd394a499f4f202f5a35a7513993f038b60b",
+    "size": 1336
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/unit/run_all_v4_tests.js",
+    "hash": "17c43f3c00bcad1a96ddf50d2bca15614ec3ac976302997a7ff17966c8fadbd1",
+    "size": 33163
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/unit/run_all_v5_tests.js",
+    "hash": "db9a3575431ab1a970c4169e491b9f8de628ad2a77239b47bc4392ba8c39e16e",
+    "size": 34183
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/unit/test_module_a.js",
+    "hash": "9655c4a13c72bc8eb351289a1c28a3ec2bf29da6af814bc90fd0700df777e4ef",
+    "size": 4050
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/unit/test_module_b.js",
+    "hash": "b0976c56c509e6431cc98ed6e7f78c8793ef5183f1d74a11aed2e34d37573e19",
+    "size": 3676
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/unit/test_module_c.js",
+    "hash": "0f575320238d74ee9808b9526d6906d03369c588a5e84d4a595fe4edce2df80e",
+    "size": 3418
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/unit/test_module_d.js",
+    "hash": "1a2773f37d403b9b9b6f7950bd4827edba9e714ad736f538af3710e4fcee077c",
+    "size": 3707
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/unit/test_module_e.js",
+    "hash": "b15cd207af129feef0218a64b8aa75fd56e2062d23f5ef409fe7c1ba270e4223",
+    "size": 4312
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v11/regression/run_v11_regression_tests.js",
+    "hash": "08fd8e4e157d2dd48f7af7687446a236f6907bc6db931f00f2c5d5d0554f881a",
+    "size": 3915
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v11/security/run_v11_security_tests.js",
+    "hash": "a4a99521933e9390ae18853afadb28fe196d1b01511d19556057aa5068babb1d",
+    "size": 6452
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v11/smoke/run_v11_smoke_tests.js",
+    "hash": "1237abd2b455498d549d62a2ae8aba64054bd273e00ea40c0cdf610cf5333de5",
+    "size": 6618
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v11/unit/run_all_v11_tests.js",
+    "hash": "b139b04321c61f1d3c9677f891f342559670c0b07a45b5296b6318862c70256e",
+    "size": 116291
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v2/run_v2_tests.js",
+    "hash": "dcf8d75ce31b3e14308ebc83aebe2ef8e78abc60c8c75899951859e87da9c704",
+    "size": 12830
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v6/regression/run_v6_regression_tests.js",
+    "hash": "8fd2bcdefd20b4264789f3cfaf303263b5785721ee65f7cff191987013f8b123",
+    "size": 2956
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v6/smoke/run_v6_smoke_tests.js",
+    "hash": "297e983fbecefcc1e82426ff90e0ee0355824f15f9cb752771072b30031e0148",
+    "size": 6571
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v6/unit/run_all_v6_tests.js",
+    "hash": "e0f5230c848028676c3f196e179f9b280a15a897db2e9ad619c6454f0e4c255e",
+    "size": 14197
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v7/regression/run_v7_regression_tests.js",
+    "hash": "332c5debed9417adbc9fe76e883ee3b3c73031ecce5074e9acdc45f1e497e602",
+    "size": 2821
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v7/security/run_v7_security_tests.js",
+    "hash": "e6971c9a1a16966b4e4efac13deb6557379b88e6179196fcafde3c0a775cf9f9",
+    "size": 3557
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v7/smoke/run_v7_smoke_tests.js",
+    "hash": "2fce779db032f20a8fcb0f25e1c30508a1551acbd35be93fdfac20c84b877569",
+    "size": 11595
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v7/unit/run_all_v7_tests.js",
+    "hash": "fb419f20823ae52e106128b655902814b3bcadd7e75637ad0b47fcfe2792a5b6",
+    "size": 28698
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v8/regression/run_v8_regression_tests.js",
+    "hash": "30be7c33b85d28a00ba23d92249805b685f3a114c0614f3167a5c92010364094",
+    "size": 3824
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v8/security/run_v8_security_tests.js",
+    "hash": "712723b8ed527e10e58936aeed4bf45cdf76ed0c79c210dec20801297de42401",
+    "size": 6273
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v8/smoke/run_v8_smoke_tests.js",
+    "hash": "014cd2798defd46a1139937cdaacbe157d3ff61713fe03779bc88a0e15e25fa9",
+    "size": 11618
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v8/unit/run_all_v8_tests.js",
+    "hash": "be9aba8866826e07fbeb439cecf86a943ba59ae2a3b95081f7a1ef33872d1628",
+    "size": 44190
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v9/regression/run_v9_regression_tests.js",
+    "hash": "123615e8eec060adff79aa70827183cb733811c5fb5f9ca5f55961388a98acd6",
+    "size": 4168
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v9/security/run_v9_security_tests.js",
+    "hash": "b6264e41b98888337d08b35984abb533e08ed57927bd2203c7fcc5a550da6e89",
+    "size": 5835
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v9/smoke/run_v9_smoke_tests.js",
+    "hash": "ce55b6f45c2a7e2f6562df72bc3ed9c5874c5dc77a3979fde3e8cbf18c45be0c",
+    "size": 8368
+  },
+  {
+    "path": "semiconductor-engineering-copilot/tests/v9/unit/run_all_v9_tests.js",
+    "hash": "ec54593f4e0c862a669095c3f78e426184f613756b91adc35f158b46e58ce6ef",
+    "size": 44461
+  },
+  {
+    "path": "semiconductor-engineering-copilot/TEST_BASELINE_V5.md",
+    "hash": "d0a1476fe07a2fd938a8a17ce5330319538eaba28a23f3aaf4d2ca5c64898022",
+    "size": 1049
+  },
+  {
+    "path": "semiconductor-engineering-copilot/TEST_PLAN_V3.md",
+    "hash": "12cd567f36f15fc65e4c0cf05ef1d4c9e68cf36ae9f2da6cd5c125f5b2c8fbe5",
+    "size": 2098
+  },
+  {
+    "path": "semiconductor-engineering-copilot/TEST_PLAN_V5.md",
+    "hash": "d1e45ebf7d19cdde4b4a6b69ff6925a746f4656d284d1caa019275818de54a57",
+    "size": 1617
+  },
+  {
+    "path": "semiconductor-engineering-copilot/TEST_REPORT_V3.md",
+    "hash": "62c4dedb41c12b8c71f8e5e414aa6213e94ba60d1fb7625d69bccfe86e71187f",
+    "size": 5959
+  },
+  {
+    "path": "semiconductor-engineering-copilot/TEST_REPORT_V4.md",
+    "hash": "b1430df9efd405e5ecf6b81d70ebf2498ec00a221951c449e70a53df1cdacb9b",
+    "size": 9956
+  },
+  {
+    "path": "semiconductor-engineering-copilot/TEST_REPORT_V5.md",
+    "hash": "5a6094a531f58a871a9ce7b1186f59725dd6d8b9496fc2289de324f336ed31e2",
+    "size": 3751
+  },
+  {
+    "path": "semiconductor-engineering-copilot/UPGRADE_AUDIT.md",
+    "hash": "f54fa38efe204d8fdafb0f4a59b5e95f630885eb536775984279584cf2bf1fb8",
+    "size": 3844
+  },
+  {
+    "path": "semiconductor-engineering-copilot/UPGRADE_AUDIT_V5.md",
+    "hash": "0eb74586e8bba7681cb990f1b420a3ec87e88ea61b021d0f562276d14326c4d9",
+    "size": 2786
+  }
+]

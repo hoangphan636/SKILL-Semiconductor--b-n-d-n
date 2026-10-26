@@ -1,0 +1,38 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    name: Test Suite (Node ${{ matrix.node-version }} on ${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node-version: [18.x, 20.x, 22.x]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Run Environment & Skill Validation
+        run: node scripts/validate_skill.js
+
+      - name: Run Mandatory Smoke Tests
+        run: node tests/smoke/run_v5_smoke_tests.js
+
+      - name: Run Core V5 Capability Tests
+        run: node tests/unit/run_all_v5_tests.js
+
+      - name: Run Full Multi-Tier Test Suite
+        run: npm test

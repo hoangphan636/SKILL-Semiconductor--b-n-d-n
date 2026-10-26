@@ -3,6 +3,9 @@
   "version": "5.0.0",
   "description": "Production-grade AI Semiconductor Engineering Platform and Copilot V5.0",
   "main": "modules/v5/index.js",
+  "bin": {
+    "semiconductor-copilot": "./examples/quickstart_demo.js"
+  },
   "scripts": {
     "test": "node tests/unit/run_all_v5_tests.js",
     "test:all": "node tests/smoke/run_v5_smoke_tests.js && node tests/e2e/run_v5_e2e_tests.js && node tests/unit/run_all_v5_tests.js && node tests/unit/run_all_v4_tests.js && node tests/unit/run_all_v3_tests.js && node tests/v2/run_v2_tests.js && node tests/run_tests.js",
@@ -12,7 +15,8 @@
     "test:v4": "node tests/unit/run_all_v4_tests.js",
     "test:v3": "node tests/unit/run_all_v3_tests.js",
     "test:v2": "node tests/v2/run_v2_tests.js",
-    "test:v1": "node tests/run_tests.js"
+    "test:v1": "node tests/run_tests.js",
+    "test:enterprise": "node tests/unit/test_enterprise_module.js && node tests/unit/test_enterprise_apex.js"
   },
   "keywords": [
     "semiconductor",

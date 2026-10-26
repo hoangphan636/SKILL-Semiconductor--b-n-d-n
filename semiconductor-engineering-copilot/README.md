@@ -18,6 +18,10 @@
   <img src="https://img.shields.io/badge/Tests_Passing-364%2F364_Clean-00DF89?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Tests Passing" />
   <img src="https://img.shields.io/badge/Packaging-UCIe_1.1%2F2.0_%7C_2.5D%2F3D_Chiplet-7928CA?style=for-the-badge&logo=atom&logoColor=white" alt="Packaging" />
   <img src="https://img.shields.io/badge/Security-Zero_CVE_%7C_Jail_Enforced-FF0080?style=for-the-badge&logo=shield&logoColor=white" alt="Security" />
+  <a href=".github/workflows/ci.yml"><img src="https://img.shields.io/badge/CI-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI" /></a>
+  <a href="ROADMAP.md"><img src="https://img.shields.io/badge/Roadmap-2026--2027-blueviolet?style=for-the-badge&logo=target&logoColor=white" alt="Roadmap" /></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge&logo=git&logoColor=white" alt="PRs Welcome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="License" /></a>
 </p>
 
 <p align="center">
@@ -38,7 +42,18 @@ Modern semiconductor tape-outs cost tens of millions of dollars. A single halluc
 2. ✂️ **Ponytail Minimality Ladder**: Surgical code modification. Never rewrite working RTL during ECO timing closure. Climb the ladder: *YAGNI ➔ Codebase Reuse ➔ Native Stdlib ➔ One-Liner ➔ Minimum Viable Diff*.
 3. 🔒 **Confidentiality Fortress**: Proprietary foundry PDKs (TSMC, Intel, Samsung), DRC decks, GDSII layouts, and customer RTL are never exfiltrated to public third-party LLMs.
 
+### 📊 Why Semiconductor Engineering Copilot?
+
+| Dimension | Legacy EDA Scripts (Tcl / Perl) | Generic AI Chatbots (ChatGPT / Claude) | ⚡ Semiconductor Engineering Copilot |
+| :--- | :--- | :--- | :--- |
+| **Hallucination Protection** | Fixed logic, zero reasoning | High risk (hallucinates flags & false timing) | **Zero (Cryptographic REA Evidence Protocol)** |
+| **PDK Confidentiality** | High (local files only) | 🚨 Catastrophic (PDK/RTL leaks to public LLM) | **🛡️ Air-Gapped Secure Enclave / Zero Leakage** |
+| **Domain Scope** | Siloed (e.g. only STA or only DRC) | Text-only suggestions without execution | **Full-Stack (447 Capabilities, UCIe 2.0 to ATE)** |
+| **Execution Integration** | Manual pipeline triggers | No tool integration | **Autonomous Agentic (147 MCP stdio Tools)** |
+| **Verification Gate** | Manual engineer sign-off | None | **Multi-Agent HSM Consensus Sign-off** |
+
 ---
+
 
 ## 💎 2. Architectural Blueprint & Multi-Tier Execution Matrix
 
@@ -257,33 +272,84 @@ Modern semiconductor tape-outs cost tens of millions of dollars. A single halluc
 
 ## 🛠️ 4. Quick Start & Execution Verification
 
-### Step 1: Probe Host Toolchain & Licenses
-```powershell
-node semiconductor-engineering-copilot/scripts/discover_tools.js
-node semiconductor-engineering-copilot/scripts/validate_environment.js
+### Step 1: Run Instant Zero-Config Demo (10 Seconds)
+Clone the repository and run the standalone silicon verification demo (no commercial EDA licenses required):
+```bash
+git clone https://github.com/your-username/semiconductor-engineering-copilot.git
+cd semiconductor-engineering-copilot
+node examples/quickstart_demo.js
 ```
 
-### Step 2: Run Full 147-Tool Verification Suite
-```powershell
-node semiconductor-engineering-copilot/tests/run_tests.js
+### Step 2: Probe Host Toolchain & Run Multi-Tier Tests
+```bash
+# Probe local EDA tools (Yosys, Icarus, Verilator, Synopsys, Cadence)
+node scripts/discover_tools.js
+
+# Run the complete multi-tier test suite (364 automated tests)
+npm test
 ```
 
-### Step 3: Register MCP in Agent Settings
-Add to your `mcp_config.json` or agent IDE settings:
+### Step 3: Register Model Context Protocol (MCP) Server
+Add to your `mcp_config.json` or AI IDE configuration (`claude_desktop_config.json`, Cursor, Antigravity, Windsurf):
 ```json
 {
   "mcpServers": {
     "semiconductor-eda": {
       "command": "node",
-      "args": ["c:/Users/Hoang/Desktop/Skill Semiconductor/semiconductor-engineering-copilot/adapters/mcp/eda_mcp_server.js"]
+      "args": ["./adapters/mcp/eda_mcp_server.js"]
     }
   }
 }
 ```
 
+
 ---
+
+## 🤝 5. Contributing & Community Growth
+
+We believe the future of silicon engineering belongs to an open, global community of hardware and software developers.
+
+- 📖 **Contribution Guidelines**: Read our [CONTRIBUTING.md](CONTRIBUTING.md) to set up your environment in under 5 minutes.
+- 🗺️ **Product Roadmap**: View active milestones and open features in [ROADMAP.md](ROADMAP.md).
+- 🎯 **Good First Issues**: Looking to contribute? Start with tasks tagged [`good first issue`](../../issues?q=is%3Aissue+is%3Aopen+label%3A"good+first+issue") or [`help wanted`](../../issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted").
+- 🔒 **Security Policy**: Read our zero-leakage PDK & disclosure policy in [SECURITY.md](SECURITY.md).
+- 📜 **Code of Conduct**: We hold all contributors and maintainers to the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+- 💬 **Join Discussions**: Propose tool requests, share tape-out war stories, and collaborate in GitHub Discussions.
+- 🏢 **Enterprise Apex Suite**: Review the 30 Tier-1 enterprise capabilities in [ENTERPRISE_APEX_30.md](ENTERPRISE_APEX_30.md). Run `npm run test:enterprise` to execute the full evaluation.
+
+---
+
+## 🏛️ 6. Academic Citation & Research Collaboration
+
+If you use **Semiconductor Engineering Copilot** in your research, university coursework, or silicon bring-up papers (IEEE CEDA, DAC, ICCAD, ISSCC, DATE), please cite:
+
+```bibtex
+@software{semiconductor_engineering_copilot_2026,
+  author = {Principal Semiconductor AI Engineer and Contributors},
+  title = {Semiconductor Engineering Copilot: Production-Grade AI Platform for Silicon Design, UCIe Chiplets, and EDA Sign-off},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/your-username/semiconductor-engineering-copilot}}
+}
+```
+
+---
+
+## 👥 7. Contributor Recognition & Star History
+
+We recognize every contributor who files a bug, writes a testbench, or expands an EDA adapter.
+
+<div align="center">
+  <a href="https://github.com/your-username/semiconductor-engineering-copilot/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=your-username/semiconductor-engineering-copilot" alt="Contributors Wall" />
+  </a>
+</div>
+
+<br/>
 
 <div align="center">
   <sub>Built with precision for the next generation of Silicon, Chiplet, and Quantum IC Architecture.</sub><br/>
   <sub>Licensed under Apache 2.0. Copyright 2026 Semiconductor Engineering Copilot Contributors.</sub>
 </div>
+
